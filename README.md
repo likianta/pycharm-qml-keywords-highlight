@@ -1,31 +1,44 @@
-# Intro
+# PyCharm QML Enhancement
 
-Keywords and syntax hightlight for QML (Qt markup language) in Pycharm.
+Enable QML (Qt Modeling Language) syntax highlight and code completion in PyCharm.
 
-![image-20201127224559615](.assets/image-20201127224559615.png)
+# Screenshots
 
-It also provides code completion hint for you:
+**Syntax highlight**
 
-![image-20201127224745541](.assets/image-20201127224745541.png)
+![](.assets/image-20201127224559615.png)
 
-# How to use
+**Code completion**
 
-1. Download 'export/pycharm_qml_keywords_highlight.md' to local
+![](.assets/image-20201127224745541.png)
 
-2. Open Pycharm settings - Editor - File Types, click the 'add' button. You will see the dialog pane
+# How To Use
 
-   ![image-20201127225050047](.assets/image-20201127225050047.png)
+1. Download [pycharm-qml-keywords-highlight.md](./pycharm-qml-keywords-highlight.md)
 
-3. Enable options like below
+3. Open PyCharm settings - Editor - File Types, click the 'add' button. You will see the dialog pane
 
-   ![image-20201127225233543](.assets/image-20201127225233543.png)
+   ![](.assets/image-20201127225050047.png)
 
-4. Open the downloaded file, and copy its content, paste to Pycharm dialog pane like below
+4. Enable options like below
 
-   ![image-20201127225449503](.assets/image-20201127225449503.png)
+   ![](.assets/image-20201127225233543.png)
 
-5. And add `*.qml` file types here
+5. Open the downloaded file, copy its content, paste to PyCharm dialog pane like below
 
-   ![image-20201127225527272](.assets/image-20201127225527272.png)
+   ![](.assets/image-20201127225449503.png)
 
-6. Now you can see the code highlighted in .qml
+6. And add `*.qml` file types
+
+   ![](.assets/image-20201127225527272.png)
+
+7. Now you can see the code highlighted in .qml ^_^
+
+# Notice
+
+1. The source keywords are extracted from Qt 5.15. Be notice that some modules and properties are not available in Qt 6.0. You may find the difference by checking Qt offical documentation.
+2. The code completion is not perfect, since it always dumps all matched keywords as you typed, regardless which module or which component you're using.
+
+# Compile From Source
+
+See [Developer Guide](README-dev.md).

@@ -1,4 +1,6 @@
-## Keywords Set 1 -- Syntax Keywords
+[TOC]
+
+# Keywords Set 1 -- Syntax Keywords
 
 ```
 and
@@ -63,68 +65,19 @@ while
 yield
 ```
 
-## Keywords Set 2 -- Operators
+# Keywords Set 2 -- Qml Modules
 
-```
-:
-;
-?
-??
-!
-$
-|
-||
-+
-++
--
---
-*
-**
-/
-//
-\
-\\
-&
-%
-/*
-*/
-=
-==
-===
-!=
-!==
->
->>
->=
-<
-<<
-<=
-->
-(
-)
-[
-]
-{
-{{
-}
-}}
-"
-'
-`
-```
-
-## Keywords Set 3 -- All Qml Types
-
-### Part 1 -- Qml Modules
+> TODO: this set is not complete.
+> 
+> Tip: you can extend your own module names here.
 
 ```
 QtDataVisualization
 QtQuick
 QtQuick.Controls
-TODO
 ```
 
-### Part 2 -- Qml Widgets
+# Keywords Set 3 -- Qml Components
 
 ```
 Abstract3DSeries
@@ -1059,7 +1012,7 @@ YAnimator
 ZoomBlur
 ```
 
-## Keywords Set 4 -- Qml Component Attributes
+# Keywords Set 4 -- Qml Properties
 
 ```
 absoluteHumidity
