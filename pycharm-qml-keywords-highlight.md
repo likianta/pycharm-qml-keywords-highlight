@@ -1,5 +1,14 @@
 [TOC]
 
+Note:
+
+To improve typing experience, I have slighly modified some values, here's a backup list:
+
+- Add `Components.onCompleted` to Set 2
+- Add `console` to Set 2
+- Add `console.log` to Set 2
+- Remove `anchor` from Set 4
+
 # Keywords Set 1 -- Syntax Keywords
 
 ```
@@ -67,11 +76,15 @@ yield
 
 # Keywords Set 2 -- Qml Modules
 
-> TODO: this set is not complete.
+> TODO: this set is not complete, see related source code at `main.py:indexing_modules`.
 > 
 > Tip: you can extend your own module names here.
 
 ```
+Components.onCompleted
+console
+console.log
+
 QtDataVisualization
 QtQuick
 QtQuick.Controls
@@ -1098,7 +1111,6 @@ ambient
 ambientColor
 ambientLightStrength
 ambientOcclusion
-anchor
 anchorEdges
 anchorPoint
 anchorPosition
