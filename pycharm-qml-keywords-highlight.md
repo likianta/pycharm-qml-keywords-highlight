@@ -1,8 +1,14 @@
+```
+version: '2.0'
+updated: '2021-11-14'
+```
+
 [TOC]
 
 Note:
 
-To improve typing experience, I have slighly modified some values, here's a backup list:
+To improve typing experience, I have slighly modified some values, here's a 
+backup list:
 
 - Add `Components.onCompleted` to Set 2
 - Add `console` to Set 2
@@ -74,23 +80,22 @@ while
 yield
 ```
 
-# Keywords Set 2 -- Qml Modules
+# Keywords Set 2 -- Qml Types
 
-> TODO: this set is not complete, see related source code at `main.py:indexing_modules`.
-> 
-> Tip: you can extend your own module names here.
+This pane contains 'Qml Modules' and 'Qml Components', I've split them into two 
+parts, but you need to copy both of them and paste into the same pane.
+
+## Qml Modules
+
+*(TODO: This is not complete.)*
 
 ```
-Components.onCompleted
-console
-console.log
-
 QtDataVisualization
 QtQuick
 QtQuick.Controls
 ```
 
-# Keywords Set 3 -- Qml Components
+## Qml Components
 
 ```
 Abstract3DSeries
@@ -1025,7 +1030,7 @@ YAnimator
 ZoomBlur
 ```
 
-# Keywords Set 4 -- Qml Properties
+# Keywords Set 3 -- Qml Properties
 
 ```
 absoluteHumidity
@@ -3676,4 +3681,39 @@ zoomEnabled
 zoomFactor
 zoomLevel
 zoomLimit
+```
+
+# Keywords Set 4 -- Custom
+
+Make your own custom keywords here.
+
+Here are some suggested keywords:
+
+## General
+
+```
+Components.onCompleted
+anchors.bottom: parent.bottom
+anchors.centerIn: parent
+anchors.fill: parent
+anchors.left: parent.left
+anchors.right: parent.right
+anchors.top: parent.top
+console
+console.log
+horizontalCenter: parent.horizontalCenter
+verticalCenter: parent.verticalCenter
+```
+
+## LK QtQuick Scaffold Specific
+
+```
+LKLayoutHelper
+LightClean
+LightClean.LCButtons
+LightClean.LCComplex
+PySide
+pyside
+pyside.call
+pyside.eval
 ```
