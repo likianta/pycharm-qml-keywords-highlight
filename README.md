@@ -15,8 +15,7 @@ PyCharm.
 
 # How To Use
 
-1.
-Download [pycharm-qml-keywords-highlight.md](./pycharm-qml-keywords-highlight.md)
+1. Download [pycharm-qml-keywords-highlight.md](./pycharm-qml-keywords-highlight.md)
 
 2. Open PyCharm settings - Editor - File Types, click the 'add' button. You will
    see the dialog pane
