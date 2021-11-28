@@ -1,6 +1,6 @@
 ```
-version: '2.0'
-updated: '2021-11-14'
+version: '2.0.1'
+updated: '2021-11-28'
 ```
 
 [TOC]
@@ -3692,17 +3692,17 @@ Here are some suggested keywords:
 ## General
 
 ```
-Components.onCompleted
+Component.onCompleted
 anchors.bottom: parent.bottom
 anchors.centerIn: parent
 anchors.fill: parent
+anchors.horizontalCenter: parent.horizontalCenter
 anchors.left: parent.left
 anchors.right: parent.right
 anchors.top: parent.top
+anchors.verticalCenter: parent.verticalCenter
 console
 console.log
-horizontalCenter: parent.horizontalCenter
-verticalCenter: parent.verticalCenter
 ```
 
 ## LK QtQuick Scaffold Specific
