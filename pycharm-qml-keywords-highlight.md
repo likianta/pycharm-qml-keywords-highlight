@@ -1,6 +1,6 @@
 ```
-version: '2.0.1'
-updated: '2021-11-28'
+version: '2.0.2'
+updated: '2022-01-11'
 ```
 
 [TOC]
@@ -3693,14 +3693,6 @@ Here are some suggested keywords:
 
 ```
 Component.onCompleted
-anchors.bottom: parent.bottom
-anchors.centerIn: parent
-anchors.fill: parent
-anchors.horizontalCenter: parent.horizontalCenter
-anchors.left: parent.left
-anchors.right: parent.right
-anchors.top: parent.top
-anchors.verticalCenter: parent.verticalCenter
 console
 console.log
 ```
