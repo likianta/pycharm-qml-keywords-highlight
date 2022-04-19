@@ -1,6 +1,6 @@
 ```
-version: '2.0.2'
-updated: '2022-01-11'
+version: 2.1.0
+updated: 2022-04-19
 ```
 
 [TOC]
@@ -3697,15 +3697,55 @@ console
 console.log
 ```
 
-## LK QtQuick Scaffold Specific
+## Patches for the Missing Part of Regular Set
 
 ```
-LKLayoutHelper
-LightClean
-LightClean.LCButtons
-LightClean.LCComplex
-PySide
+horizontalCenter
+verticalCenter
+```
+
+## LK QtQuick Scaffold Specs
+
+```
+LKButton
+LKCheckBox
+LKCheckGroup
+LKCircle
+LKColumn
+LKComboBox
+LKEdit
+LKFlatButton
+LKForm
+LKGhostButton
+LKIcon
+LKImage
+LKListView
+LKMouseArea
+LKProgressBar
+LKRadioBox
+LKRadioGroup
+LKRectangle
+LKRichEditor
+LKRichText
+LKRow
+LKSplitLine
+LKTable
+LKText
+LKTextLink
+LKWidgets
+LKWindow
+pycolor
+pyfont
+pylayout
+pymotion
 pyside
 pyside.call
 pyside.eval
+pysize
+pystyle
+pystyle.color
+pystyle.font
+pystyle.layout
+pystyle.motion
+pystyle.size
 ```
