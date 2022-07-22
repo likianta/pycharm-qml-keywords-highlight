@@ -1,19 +1,9 @@
 ```
-version: 2.1.0
-updated: 2022-04-19
+version: 2.1.1
+updated: 2022-07-22
 ```
 
 [TOC]
-
-Note:
-
-To improve typing experience, I have slighly modified some values, here's a 
-backup list:
-
-- Add `Components.onCompleted` to Set 2
-- Add `console` to Set 2
-- Add `console.log` to Set 2
-- Remove `anchor` from Set 4
 
 # Keywords Set 1 -- Syntax Keywords
 
@@ -26,6 +16,7 @@ as
 assert
 async
 await
+bool
 break
 case
 class
@@ -3719,16 +3710,20 @@ LKForm
 LKGhostButton
 LKIcon
 LKImage
+LKInput
 LKListView
 LKMouseArea
-LKProgressBar
+LKProgress
 LKRadioBox
 LKRadioGroup
 LKRectangle
+LKRectangle2
+LKRectangle3
 LKRichEditor
 LKRichText
 LKRow
-LKSplitLine
+LKSlider
+LKSplitter
 LKTable
 LKText
 LKTextLink
@@ -3740,6 +3735,7 @@ pylayout
 pymotion
 pyside
 pyside.call
+pyside.def
 pyside.eval
 pysize
 pystyle
