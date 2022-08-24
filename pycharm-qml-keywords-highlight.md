@@ -1,6 +1,6 @@
 ```
-version: 2.1.1
-updated: 2022-07-22
+version: 2.1.2
+updated: 2022-08-24
 ```
 
 [TOC]
@@ -3684,6 +3684,7 @@ Here are some suggested keywords:
 
 ```
 Component.onCompleted
+Qt.binding
 console
 console.log
 ```
@@ -3705,10 +3706,13 @@ LKCircle
 LKColumn
 LKComboBox
 LKEdit
+LKField
 LKFlatButton
 LKForm
 LKGhostButton
+LKHBox
 LKIcon
+LKIconButton
 LKImage
 LKInput
 LKListView
@@ -3724,9 +3728,11 @@ LKRichText
 LKRow
 LKSlider
 LKSplitter
-LKTable
+LKTableView
+LKTreeView
 LKText
 LKTextLink
+LKVBox
 LKWidgets
 LKWindow
 pycolor
