@@ -3735,6 +3735,10 @@ LKTextLink
 LKVBox
 LKWidgets
 LKWindow
+pyassets
+pyassets.cwd
+pyassets.get
+pyassets.src
 pycolor
 pyfont
 pylayout
