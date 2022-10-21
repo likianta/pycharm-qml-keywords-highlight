@@ -1,6 +1,6 @@
 ```
-version: 2.1.2
-updated: 2022-08-24
+version: 2.1.3
+updated: 2022-10-09
 ```
 
 [TOC]
@@ -3708,6 +3708,8 @@ LKComboBox
 LKEdit
 LKField
 LKFlatButton
+LKFocus
+LKFocusField
 LKForm
 LKGhostButton
 LKHBox
@@ -3734,6 +3736,7 @@ LKText
 LKTextLink
 LKVBox
 LKWidgets
+LKWidgets.Controls
 LKWindow
 pyassets
 pyassets.cwd
@@ -3743,6 +3746,7 @@ pycolor
 pyfont
 pylayout
 pymotion
+pyscope
 pyside
 pyside.call
 pyside.def
